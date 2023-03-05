@@ -1,0 +1,10 @@
+# Project
+data/
+test*
+
+# Python
+__pycache__/
+
+# IDE
+.idea/
+

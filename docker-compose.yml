@@ -1,0 +1,17 @@
+version: "3"
+services:
+  gunicorn:
+    container_name: yt-subtitles
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nginx.rule=Host(`yt-subtitles.lremane.xyz`)"
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    networks:
+      - traefik_web
+
+networks:
+  traefik_web:
+    external: true
