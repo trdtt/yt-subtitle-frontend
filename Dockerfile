@@ -4,4 +4,4 @@ WORKDIR /gunicorn
 COPY . .
 RUN pip install .
 
-CMD ["gunicorn", "yt_subtitles.app:app", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "yt-subtitles-frontend.app:app", "--bind", "0.0.0.0:8000"]
