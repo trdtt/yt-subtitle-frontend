@@ -1,4 +1,4 @@
-from yt_subtitles.yt_extractor.extractor import extract_formatted_subtitles
+from yt_subtitle_downloader.extractor import extract_formatted_subtitles
 from flask import Flask, render_template, request, send_file, jsonify
 from urllib.parse import urlparse, parse_qs
 from flask_cors import CORS
