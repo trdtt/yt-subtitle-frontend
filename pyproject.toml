@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "download-yt-subtitles-frontend"
+name = "yt-subtitles-frontend"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
-packages = [{include = "yt_subtitles"}]
+packages = [{include = "yt-subtitles-frontend"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
