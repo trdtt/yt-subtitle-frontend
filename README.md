@@ -9,7 +9,7 @@ An running example can be found [here](https://yt-subtitles.lremane.xyz/).
 
 ## Getting Started
 ### Requirements
-In order to run this application, you will need to have the following installed on your machine:
+In order to run this application locally, you will need to have the following installed on your machine:
 
 - [Docker Compose](https://docs.docker.com/compose/)
  
